@@ -1,6 +1,6 @@
 <?php
     $result = '無し';
-    if (array_key_exists('act, $_POST')) {
+    if (array_key_exists('act', $_POST)) {
         $result = omikuji();
     }
     
